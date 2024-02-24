@@ -1,0 +1,33 @@
+﻿@page "/"
+@page "/search/{searchText}/{page:int}"
+@page "/{categoryUrl}"
+@inject IProductService ProductService
+@implements IDisposable
+@inject IStringLocalizer<Resource> localizer
+
+<PageTitle>My Shop</PageTitle>
+
+@*<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />*@
+
+<h1>@localizer["welcome"]</h1>
+
+<ErrorBoundary @ref="errorBoundary">
+    <ChildContent>
+        @if (SearchText == null && CategoryUrl == null)
+        {
+            <FeatureProducts />
+        }
+        else
+        {
+            <ProductList />
+        }
+    </ChildContent>
+    <ErrorContent>
+        <p class="error-message">Uh oh! Something went wrong</p>
+        <button class="btn btn-warning" @onclick="ResetError">Reset</button>
+    </ErrorContent>
+</ErrorBoundary>
