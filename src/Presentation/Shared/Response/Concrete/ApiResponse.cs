@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Response.Concrete;
+﻿namespace Ecommerce.Shared.Response.Concrete;
 
 public class ApiResponse<T>
 {

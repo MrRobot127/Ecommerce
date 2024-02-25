@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace BlazorEcommerce.Shared.User
+namespace Ecommerce.Shared.User
 {
     public class UserRegister
     {

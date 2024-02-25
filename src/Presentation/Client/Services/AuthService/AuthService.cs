@@ -1,5 +1,5 @@
-﻿using BlazorEcommerce.Shared.Auth;
-using BlazorEcommerce.Shared.User;
+﻿using Ecommerce.Shared.Auth;
+using Ecommerce.Shared.User;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;

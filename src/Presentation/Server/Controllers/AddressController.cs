@@ -1,5 +1,7 @@
-﻿using BlazorEcommerce.Application.Features.Address.Command.AddAddress;
-using BlazorEcommerce.Application.Features.Address.Query.GetAddress;
+﻿using Ecommerce.Application.Features.Address.Command.AddAddress;
+using Ecommerce.Application.Features.Address.Query.GetAddress;
+using Ecommerce.Shared;
+using Ecommerce.Shared.Response.Abstract;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

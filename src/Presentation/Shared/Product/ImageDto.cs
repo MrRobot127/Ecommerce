@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Product
+﻿namespace Ecommerce.Shared.Product
 {
     public class ImageDto
     {

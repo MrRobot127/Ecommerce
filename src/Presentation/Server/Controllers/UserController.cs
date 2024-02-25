@@ -1,5 +1,5 @@
-﻿using BlazorEcommerce.Application.Contracts.Identity;
-using BlazorEcommerce.Shared.User;
+﻿using Ecommerce.Application.Contracts.Identity;
+using Ecommerce.Shared.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;

@@ -1,7 +1,7 @@
-﻿using BlazorEcommerce.Shared.Category;
+﻿using Ecommerce.Shared.Category;
 using System.ComponentModel.DataAnnotations;
 
-namespace BlazorEcommerce.Shared.Product
+namespace Ecommerce.Shared.Product
 {
     public class ProductDto
     {

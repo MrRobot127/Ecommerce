@@ -1,13 +1,13 @@
-﻿using BlazorEcommerce.Application.Features.Cart.Commands.AddToCart;
-using BlazorEcommerce.Application.Features.Cart.Commands.RemoveItemFromCart;
-using BlazorEcommerce.Application.Features.Cart.Commands.StoreCartItems;
-using BlazorEcommerce.Application.Features.Cart.Commands.UpdateQuantity;
-using BlazorEcommerce.Application.Features.Cart.Query.GetCartItemsCount;
-using BlazorEcommerce.Application.Features.Cart.Query.GetCartProducts;
-using BlazorEcommerce.Application.Features.Cart.Query.GetDbCartProducts;
-using BlazorEcommerce.Shared.Cart;
-using BlazorEcommerce.Shared.Constant;
-using BlazorEcommerce.Shared.Response.Concrete;
+﻿using Ecommerce.Application.Features.Cart.Commands.AddToCart;
+using Ecommerce.Application.Features.Cart.Commands.RemoveItemFromCart;
+using Ecommerce.Application.Features.Cart.Commands.StoreCartItems;
+using Ecommerce.Application.Features.Cart.Commands.UpdateQuantity;
+using Ecommerce.Application.Features.Cart.Query.GetCartItemsCount;
+using Ecommerce.Application.Features.Cart.Query.GetCartProducts;
+using Ecommerce.Application.Features.Cart.Query.GetDbCartProducts;
+using Ecommerce.Shared.Cart;
+using Ecommerce.Shared.Constant;
+using Ecommerce.Shared.Response.Concrete;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

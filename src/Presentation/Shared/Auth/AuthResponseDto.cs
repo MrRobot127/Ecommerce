@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BlazorEcommerce.Shared.Auth;
+namespace Ecommerce.Shared.Auth;
 
 public class AuthResponseDto
 {

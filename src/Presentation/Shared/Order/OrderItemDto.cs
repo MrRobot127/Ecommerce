@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Order
+﻿namespace Ecommerce.Shared.Order
 {
     public class OrderItemDto
     {

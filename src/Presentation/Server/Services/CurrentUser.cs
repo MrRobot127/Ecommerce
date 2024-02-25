@@ -1,4 +1,4 @@
-﻿using BlazorEcommerce.Application.Contracts.Identity;
+﻿using Ecommerce.Application.Contracts.Identity;
 using System.Security.Claims;
 
 namespace BlazorEcommerce.Server.Services;

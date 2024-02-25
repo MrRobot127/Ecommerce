@@ -1,9 +1,9 @@
-﻿using BlazorEcommerce.Application.Features.Category.Commands.AddCategory;
-using BlazorEcommerce.Application.Features.Category.Commands.DeleteCategory;
-using BlazorEcommerce.Application.Features.Category.Commands.UpdateCategory;
-using BlazorEcommerce.Application.Features.Category.Query.GetCategories;
-using BlazorEcommerce.Shared.Category;
-using BlazorEcommerce.Shared.Response.Concrete;
+﻿using Ecommerce.Application.Features.Category.Commands.AddCategory;
+using Ecommerce.Application.Features.Category.Commands.DeleteCategory;
+using Ecommerce.Application.Features.Category.Commands.UpdateCategory;
+using Ecommerce.Application.Features.Category.Query.GetCategories;
+using Ecommerce.Shared.Category;
+using Ecommerce.Shared.Response.Concrete;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

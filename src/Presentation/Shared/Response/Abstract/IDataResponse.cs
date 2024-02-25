@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Response.Abstract;
+﻿namespace Ecommerce.Shared.Response.Abstract;
 
 public interface IDataResponse<T> : IResponse
 {

@@ -1,5 +1,5 @@
-﻿using BlazorEcommerce.Shared.Auth;
-using BlazorEcommerce.Shared.User;
+﻿using Ecommerce.Shared.Auth;
+using Ecommerce.Shared.User;
 
 namespace BlazorEcommerce.Client.Services.AuthService
 {

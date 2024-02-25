@@ -1,8 +1,8 @@
-﻿using BlazorEcommerce.Application.Contracts.Payment;
-using BlazorEcommerce.Application.Features.Cart.Query.GetDbCartProducts;
-using BlazorEcommerce.Application.Features.Order.Command.PlaceOrder;
-using BlazorEcommerce.Shared.Cart;
-using BlazorEcommerce.Shared.Response.Concrete;
+﻿using Ecommerce.Application.Contracts.Payment;
+using Ecommerce.Application.Features.Cart.Query.GetDbCartProducts;
+using Ecommerce.Application.Features.Order.Command.PlaceOrder;
+using Ecommerce.Shared.Cart;
+using Ecommerce.Shared.Response.Concrete;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

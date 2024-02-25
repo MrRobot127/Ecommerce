@@ -1,4 +1,4 @@
-﻿using BlazorEcommerce.Shared.Cart;
+﻿using Ecommerce.Shared.Cart;
 
 namespace BlazorEcommerce.Client.Services.CartService
 {

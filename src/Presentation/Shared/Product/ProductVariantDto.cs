@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BlazorEcommerce.Shared.Product
+namespace Ecommerce.Shared.Product
 {
     public class ProductVariantDto
     {

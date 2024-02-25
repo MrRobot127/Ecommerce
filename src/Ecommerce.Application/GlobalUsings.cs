@@ -1,0 +1,15 @@
+﻿global using Ecommerce.Shared.Common;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.Logging;
+global using Ecommerce.Domain.Entities;
+global using Ecommerce.Application.Repositories.Commands.Base;
+global using Ecommerce.Application.Repositories.Queries.Base;
+global using Ecommerce.Application.Repositories.Commands;
+global using Ecommerce.Application.Repositories.Queries;
+global using Ecommerce.Application.UnitOfWork;
+global using AutoMapper;
+global using Ecommerce.Shared.Response.Concrete;
+global using Ecommerce.Shared.Response.Abstract;
+global using Ecommerce.Shared.Constant;
+global using Ecommerce.Shared;

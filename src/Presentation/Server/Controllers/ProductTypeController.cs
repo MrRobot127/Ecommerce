@@ -1,7 +1,7 @@
-﻿using BlazorEcommerce.Application.Features.Category.Commands.UpdateCategory;
-using BlazorEcommerce.Application.Features.Category.Query.GetCategories;
-using BlazorEcommerce.Application.Features.ProductType.Command.AddProductType;
-using BlazorEcommerce.Shared.Response.Concrete;
+﻿using Ecommerce.Application.Features.Category.Commands.UpdateCategory;
+using Ecommerce.Application.Features.Category.Query.GetCategories;
+using Ecommerce.Application.Features.ProductType.Command.AddProductType;
+using Ecommerce.Shared.Response.Concrete;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

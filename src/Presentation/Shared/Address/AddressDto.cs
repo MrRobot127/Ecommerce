@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared
+﻿namespace Ecommerce.Shared
 {
     public class AddressDto
     {

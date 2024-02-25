@@ -1,4 +1,4 @@
-﻿using BlazorEcommerce.Shared.User;
+﻿using Ecommerce.Shared.User;
 
 namespace BlazorEcommerce.Client.Services.AddressService
 {

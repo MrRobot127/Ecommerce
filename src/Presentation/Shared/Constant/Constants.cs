@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace BlazorEcommerce.Shared.Constant
+namespace Ecommerce.Shared.Constant
 {
     public static class Constants
     {

@@ -1,4 +1,4 @@
-﻿using BlazorEcommerce.Shared.Category;
+﻿using Ecommerce.Shared.Category;
 
 namespace BlazorEcommerce.Client.Services.CategoryService
 {

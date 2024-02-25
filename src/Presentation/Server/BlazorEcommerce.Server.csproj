@@ -17,12 +17,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\BlazorEcommerce.Application\BlazorEcommerce.Application.csproj" />
-		<ProjectReference Include="..\..\BlazorEcommerce.Identity\BlazorEcommerce.Identity.csproj" />
-		<ProjectReference Include="..\..\BlazorEcommerce.Infrastructure\BlazorEcommerce.Infrastructure.csproj" />
-		<ProjectReference Include="..\..\BlazorEcommerce.Persistence\BlazorEcommerce.Persistence.csproj" />
+		<ProjectReference Include="..\..\Ecommerce.Application\Ecommerce.Application.csproj" />
+		<ProjectReference Include="..\..\Ecommerce.Identity\Ecommerce.Identity.csproj" />
+		<ProjectReference Include="..\..\Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj" />
+		<ProjectReference Include="..\..\Ecommerce.Persistence\Ecommerce.Persistence.csproj" />
 		<ProjectReference Include="..\Client\BlazorEcommerce.Client.csproj" />
-		<ProjectReference Include="..\Shared\BlazorEcommerce.Shared.csproj" />
+		<ProjectReference Include="..\Shared\Ecommerce.Shared.csproj" />
 	</ItemGroup>
 
 	<!--<Target Name="NSwag" AfterTargets="PostBuildEvent" Condition=" '$(Configuration)' == 'Debug' ">

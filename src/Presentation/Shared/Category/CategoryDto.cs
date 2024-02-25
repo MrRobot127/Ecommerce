@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Category
+﻿namespace Ecommerce.Shared.Category
 {
     public class CategoryDto
     {

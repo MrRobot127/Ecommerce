@@ -1,4 +1,4 @@
-﻿using BlazorEcommerce.Shared.Response.Abstract;
+﻿using Ecommerce.Shared.Response.Abstract;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 

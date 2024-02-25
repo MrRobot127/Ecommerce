@@ -1,5 +1,5 @@
-﻿using BlazorEcommerce.Application.Features.Order.Query.GetOrder;
-using BlazorEcommerce.Application.Features.Order.Query.GetOrderDetails;
+﻿using Ecommerce.Application.Features.Order.Query.GetOrder;
+using Ecommerce.Application.Features.Order.Query.GetOrderDetails;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Cart
+﻿namespace Ecommerce.Shared.Cart
 {
     public class CartItemDto
     {

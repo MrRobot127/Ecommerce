@@ -1,12 +1,12 @@
-global using BlazorEcommerce.Shared;
-global using BlazorEcommerce.Shared.Response.Abstract;
-using BlazorEcommerce.Application;
-using BlazorEcommerce.Application.Contracts.Identity;
-using BlazorEcommerce.Identity;
-using BlazorEcommerce.Infrastructure;
-using BlazorEcommerce.Persistence;
-using BlazorEcommerce.Persistence.Contexts;
+global using Ecommerce.Shared;
+global using Ecommerce.Shared.Response.Abstract;
+using Ecommerce.Application;
+using Ecommerce.Application.Contracts.Identity;
+using Ecommerce.Identity;
+using Ecommerce.Infrastructure;
+using Ecommerce.Persistence;
 using BlazorEcommerce.Server.Services;
+using Ecommerce.Persistence.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 

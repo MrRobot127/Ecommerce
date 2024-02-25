@@ -1,7 +1,7 @@
-﻿using BlazorEcommerce.Shared.Constant;
-using BlazorEcommerce.Shared.Response.Abstract;
+﻿using Ecommerce.Shared.Constant;
+using Ecommerce.Shared.Response.Abstract;
 
-namespace BlazorEcommerce.Shared.Response.Concrete;
+namespace Ecommerce.Shared.Response.Concrete;
 
 public class DataResponse<T> : IDataResponse<T>
 {

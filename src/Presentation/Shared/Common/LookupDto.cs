@@ -1,4 +1,4 @@
-﻿namespace BlazorEcommerce.Shared.Common;
+﻿namespace Ecommerce.Shared.Common;
 
 public class LookupDto
 {

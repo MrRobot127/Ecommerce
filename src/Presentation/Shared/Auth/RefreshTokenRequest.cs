@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace BlazorEcommerce.Shared.User
+namespace Ecommerce.Shared.User
 {
     public class RefreshTokenRequest
     {

@@ -1,4 +1,4 @@
-﻿using BlazorEcommerce.Shared.Constant;
+﻿using Ecommerce.Shared.Constant;
 
 namespace BlazorEcommerce.Client.Services.ProductService
 {

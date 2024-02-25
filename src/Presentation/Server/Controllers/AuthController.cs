@@ -1,7 +1,7 @@
-﻿using BlazorEcommerce.Application.Contracts.Identity;
-using BlazorEcommerce.Shared.Auth;
-using BlazorEcommerce.Shared.Response.Concrete;
-using BlazorEcommerce.Shared.User;
+﻿using Ecommerce.Application.Contracts.Identity;
+using Ecommerce.Shared.Auth;
+using Ecommerce.Shared.Response.Concrete;
+using Ecommerce.Shared.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlazorEcommerce.Server.Controllers
