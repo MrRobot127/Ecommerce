@@ -1,38 +1,35 @@
-global using Ecommerce.Shared;
-global using Ecommerce.Shared.Response.Abstract;
+using Ecommerce.Api.Services;
 using Ecommerce.Application;
 using Ecommerce.Application.Contracts.Identity;
 using Ecommerce.Identity;
 using Ecommerce.Infrastructure;
 using Ecommerce.Persistence;
-using Ecommerce.Server.Services;
 using Ecommerce.Persistence.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllersWithViews();
-builder.Services.AddRazorPages();
+builder.Services.AddControllers();
 
 builder.Services.AddApplicationServices();
 builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddPersistanceServices(builder.Configuration);
 
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICurrentUser, CurrentUser>();
 
-builder.Services.AddHttpContextAccessor();
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("all", builder => builder.AllowAnyOrigin()
+//    .AllowAnyHeader()
+//    .AllowAnyMethod());
+//});
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("all", builder => builder.AllowAnyOrigin()
-    .AllowAnyHeader()
-    .AllowAnyMethod());
-});
 
 var app = builder.Build();
 
@@ -59,32 +56,17 @@ using (var scope = app.Services.CreateScope())
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseWebAssemblyDebugging();
-}
-else
-{
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.DefaultModelsExpandDepth(-1);
+    });
 }
 
 app.UseHttpsRedirection();
 
-app.UseBlazorFrameworkFiles();
-app.UseStaticFiles();
-
-app.UseSwaggerUI();
-app.UseSwagger();
-
-app.UseRouting();
-
-app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapRazorPages();
 app.MapControllers();
-app.MapFallbackToFile("index.html");
-
-app.UseCors("all");
 
 app.Run();

@@ -1,7 +1,7 @@
 ﻿using Ecommerce.Application.Contracts.Identity;
 using System.Security.Claims;
 
-namespace Ecommerce.Server.Services;
+namespace Ecommerce.Api.Services;
 
 public class CurrentUser : ICurrentUser
 {

@@ -1,14 +1,14 @@
 ﻿using Ecommerce.Application.Contracts.Identity;
+using Ecommerce.Shared.Response.Abstract;
 using Ecommerce.Shared.User;
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace Ecommerce.Server.Controllers
+namespace Ecommerce.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IIdentityService _identityService;

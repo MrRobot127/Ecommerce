@@ -9,16 +9,19 @@ using Ecommerce.Application.Features.Product.Query.GetProductsByCategory;
 using Ecommerce.Application.Features.Product.Query.GetProductSearchSuggestions;
 using Ecommerce.Application.Features.Product.Query.SearchProducts;
 using Ecommerce.Shared.Product;
+using Ecommerce.Shared.Response.Abstract;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ecommerce.Server.Controllers
+namespace Ecommerce.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
+
         private readonly IMediator _mediator;
 
         public ProductController(IMediator mediator)
@@ -78,7 +81,7 @@ namespace Ecommerce.Server.Controllers
         [HttpGet("search/{searchText}/{page}")]
         public async Task<ActionResult<IResponse>> SearchProducts(string searchText, int page = 1)
         {
-            var response = await _mediator.Send(new SearchProductsQueryRequest(searchText,page));
+            var response = await _mediator.Send(new SearchProductsQueryRequest(searchText, page));
             return Ok(response);
         }
 

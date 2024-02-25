@@ -4,7 +4,7 @@ using Ecommerce.Shared.Response.Concrete;
 using Ecommerce.Shared.User;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorEcommerce.Server.Controllers
+namespace Ecommerce.Server.Controllers
 {
     [Route("api/[controller]")]
 	[ApiController]

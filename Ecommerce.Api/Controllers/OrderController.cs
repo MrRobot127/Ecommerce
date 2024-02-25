@@ -1,9 +1,11 @@
 ﻿using Ecommerce.Application.Features.Order.Query.GetOrder;
 using Ecommerce.Application.Features.Order.Query.GetOrderDetails;
+using Ecommerce.Shared.Response.Abstract;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ecommerce.Server.Controllers
+namespace Ecommerce.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
