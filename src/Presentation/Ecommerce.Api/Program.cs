@@ -30,7 +30,6 @@ builder.Services.AddScoped<ICurrentUser, CurrentUser>();
 //    .AllowAnyMethod());
 //});
 
-
 var app = builder.Build();
 
 // Initialise and seed the database
